@@ -1,0 +1,81 @@
+#about-3-hero {
+  height: 80vh;
+  &::after {
+    position: absolute;
+    content: "";
+    background-image: url(../../../assets/img/about-img/about-3-hero-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 50%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+  }
+  .header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    .logo {
+      color: #252B42;
+      @include montserrat-font();
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 32px; /* 133.333% */
+    }
+    ul {
+      li {
+        display: inline-block;
+        padding: 0 20px;
+        a {
+          color: #737373;
+          text-align: center;
+          @include encode-font();
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 20px; /* 142.857% */
+        }
+      }
+    }
+    .header-button-box {
+      margin-left: 100px;
+      .login-btn {
+        color: #FFF;
+        text-align: right;
+        @include encode-font();
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 22px; /* 137.5% */
+        margin-right: 45px;
+      }
+      .btn {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+      }
+    }
+  }
+  .about-hero-content-box {
+    margin: 150px 0;
+    h1 {
+      color: #252B42;
+      @include encode-font();
+      font-size: 70px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: 80px; /* 114.286% */
+    }
+    p {
+      color: #737373;
+      @include encode-font();
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 30px; /* 150% */
+      padding: 35px 0;
+    }
+  }
+}

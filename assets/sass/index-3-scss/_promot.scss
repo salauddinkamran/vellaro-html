@@ -1,0 +1,48 @@
+#promot {
+  background-image: url("../../../assets/img/index-3-img/promot-bg-img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 80vh;
+  margin-bottom: 120px 0 60px 0;
+  .promot-wrapper {
+    width: 800px;
+    height: 80vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    .promot-wrapp-content {
+      text-align: center;
+      border: 3px solid #fff;
+      padding: 80px;
+      h2 {
+        @include encode-font();
+        font-style: normal;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 52px;
+        color: #FFFFFF;
+      }
+      p {
+        @include encode-font();
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        color: #FFFFFF;
+        padding: 10px 0 50px 0;
+      }
+      span {
+        display: block;
+        margin-top: 50px;
+        @include encode-font();
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        color: #ECECEC;
+      }
+    }
+  }
+}

@@ -1,0 +1,64 @@
+#header {
+  padding: 35px 0;
+  .header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    .logo h3 {
+      @include montserrat-font();
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 32px;
+      color: #252B42;
+    }
+    .navbar {
+      .menu {
+        li {
+          display: inline-block;
+          padding: 0 22px;
+          a {
+            @include encode-font();
+            font-style: normal;
+            font-weight: 600;
+            font-size: 17px;
+            line-height: 20px;
+            text-align: center;
+            color: #737373;
+            transition: .3s ease;
+            &:hover {
+              color: #252B42;
+            }
+            i {
+              color: #737373;
+              padding-left: 5px;
+            }
+            &:hover i {
+              color: #252B42;
+            }
+
+          } 
+        }
+      }
+    }
+    .login-register {
+      a {
+        @include montserrat-font();
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        color: #FCA311;
+      }
+      i {
+        padding: 0 0 0 25px;
+        color: #FCA311;
+        cursor: pointer;
+      }
+      .fa-bars-staggered {
+        display: none;
+        font-size: 25px;
+      }
+    }
+  }
+}

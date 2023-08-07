@@ -1,0 +1,41 @@
+#blog-bg {
+  background: #252B42;
+  padding: 100px 0;
+  .blog-bg-wrapper {
+    .option-btn {
+      a {
+        color: #BDBDBD;
+        text-align: center;
+        @include encode-font();
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px; /* 142.857% */
+        &:hover {
+          color: #fff;
+        }
+      }
+      i {
+        padding: 0 10px;
+        color: #BDBDBD;
+      }
+    }
+    h2 {
+      color: #FFF;
+      @include encode-font();
+      font-size: 70px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: 80px; /* 114.286% */
+      margin: 20px 0;
+    }
+    p {
+      color: #ECECEC;
+      @include encode-font();
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 30px; /* 150% */
+    }
+  }
+}

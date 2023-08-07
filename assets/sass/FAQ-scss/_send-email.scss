@@ -1,0 +1,62 @@
+#send-email {
+  margin-bottom: 120px;
+  .send-email-wrapper {
+    width: 690px;
+    margin: auto;
+    .send-email-title {
+      text-align: center;
+      h2 {
+        color: #252B42;
+        font-family: Montserrat;
+        @include montserrat-font();
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 50px; /* 125% */
+      }
+      p {
+        color: #737373;
+        @include montserrat-font();
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px; /* 142.857% */
+        margin: 30px 0;
+      }
+    }
+    form {
+      display: flex;
+      margin-bottom: 30px;
+      input {
+        width: 75%;
+        background: #F9F9F9;
+        border: 1px solid #E6E6E6;
+        outline: none;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-right: none;
+        padding: 0 20px;
+        color: #737373;
+        @include montserrat-font();
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; /* 200% */
+      }
+      .btn {
+        width: 25%;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+      }
+    }
+    p {
+      color: #737373;
+      text-align: center;
+      @include encode-font();
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 22px; /* 137.5% */
+    }
+  }
+}

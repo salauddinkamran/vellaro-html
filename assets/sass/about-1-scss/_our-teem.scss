@@ -1,0 +1,99 @@
+#our-teem {
+  margin: 120px 0;
+  .our-teem-title {
+    margin-bottom: 120px;
+    h2 {
+      color: var(--text-color, #252B42);
+      @include montserrat-font();
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 50px; /* 125% */
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    p {
+      color: #737373;
+      text-align: center;
+      @include montserrat-font();
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 20px; /* 142.857% */
+    }
+  }
+  .our-teem-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .our-teem-item {
+      width: 32%;
+      img {
+        width: 100%;
+      }
+      h4 {
+        color:#252B42;
+        text-align: center;
+        @include montserrat-font();
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px; /* 150% */
+        margin-top: 30px;
+        margin-bottom: 10px;
+      }
+      span {
+        color:#737373;
+        text-align: center;
+        @include montserrat-font();
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px; /* 171.429% */
+        display: block;
+      }
+      .social-box {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        i {
+          color: #FCA311;
+          font-size: 20px;
+          margin-right: 15px;
+        }
+      }
+    }
+  }
+}
+
+
+#big-company {
+  padding: 80px 0;
+  background: #FAFAFA;
+  .company-title {
+    h2 {
+      color: var(--text-color, #252B42);
+      @include montserrat-font();
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 50px; /* 125% */
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    p {
+      color: #737373;
+      text-align: center;
+      @include montserrat-font();
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 20px; /* 142.857% */
+    }
+  }
+  .company-name-logo {
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+}

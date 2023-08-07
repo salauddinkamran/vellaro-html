@@ -1,0 +1,38 @@
+@mixin top-navbar-font {
+  @include encode-font();
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+
+#top-navbar-section {
+  background: #14213D;
+  .top-navbar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    .contact-box span:first-child {
+      margin-right: 20px;
+    }
+    .contact-box span {
+      @include top-navbar-font();
+      i {
+        margin-right: 5px;
+      }
+    }
+    p {
+      @include top-navbar-font();
+    }
+    .social-media {
+      span {
+        @include top-navbar-font();
+      }
+      i {
+        padding: 0 5px;
+        color: #FFFFFF;
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+#gallery {
+  .gallery-wrapper {
+    .large-img {
+      width: 50%;
+      height: 680px;
+      margin-right: 10px;
+    }
+    .small-img-wrapper-box {
+      width: 50%;
+      .small-img-item {
+        display: flex;
+        justify-content: space-between;
+        img {
+          width: 49%;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}

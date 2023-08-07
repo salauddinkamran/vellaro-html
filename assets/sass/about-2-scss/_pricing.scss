@@ -1,0 +1,168 @@
+#pricing {
+  margin-bottom: 120px;
+  .pricing-title {
+    text-align: center;
+    h2 {
+      color: #252B42;
+      @include encode-font();
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 52px; /* 130% */
+    }
+    p {
+      color:#737373;
+      text-align: center;
+      @include encode-font();
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 22px; /* 137.5% */
+      margin-top: 10px;
+    }
+    .packge-wrapper {
+      display: flex;
+      justify-content: center;
+      margin-top: 50px;
+      .mon-yer {
+        display: flex;
+        align-items: center;
+        margin-right: 20px;
+        span {
+          color: #252B42;
+          @include encode-font();
+          font-size: 17px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 26px; /* 152.941% */
+        }
+        .mon-yer-btn {
+          margin: 0px 15px;
+          width: 55px;
+          height: 33px;
+          background: #fff;
+          border: 1px solid #FCA311;
+          border-radius: 36px;
+          position: relative;
+          &::after {
+            position: absolute;
+            content: "";
+            width: 25px;
+            height: 25px;
+            background: #ebebeb;
+            top: 3px;
+            left: 3px;
+            border-radius: 50%;
+            border: 2px solid #d0d0d0;
+          }
+        }
+      }
+      .save-btn {
+        padding: 10px 20px;
+        background: #FBEDD5;
+        border-radius: 36px;
+        color: #FCA311;
+        text-align: center;
+        @include encode-font();
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20px; /* 142.857% */
+      }
+    }
+  }
+  .priceing-wrapper-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    .pricing-item-box {
+      width: 32%;
+      padding: 50px 40px;
+      border-radius: 10px;
+      border: 1px solid #DEDEDE;
+      text-align: center;
+      h3 {
+        color: #252B42;
+        @include encode-font();
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 36px; /* 138.462% */
+      }
+      p {
+        padding: 35px 0;
+        color: #737373;
+        text-align: center;
+        @include montserrat-font();
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px; /* 150% */
+      }
+      h1 {
+        color: #FCA311;
+        @include montserrat-font();
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 50px; /* 125% */
+      }
+      span {
+        color: #8EC2F2;
+        @include montserrat-font();
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px; /* 150% */
+        display: block;
+      }
+      .pricing-btn {
+        margin: 35px 0;
+        color: #FFF;
+        text-align: center;
+        @include montserrat-font();
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 22px; /* 157.143% */
+        background: #FCA311;
+        width: 100%;
+        padding: 10px 0;
+        border: 2px solid #FCA311;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all .3s ease;
+        &:hover {
+          background: transparent;
+          color: #FCA311;
+        }
+      }
+      ul {
+        text-align: left;
+        li {
+          color:#252B42;
+          @include encode-font();
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 20px; /* 142.857% */
+          margin-bottom: 15px;
+          &:last-child {
+            margin-bottom: 0;
+          }
+          i {
+            background: #2DC071;
+            color: #fff;
+            padding: 8px;
+            border-radius: 50%;
+            margin-right: 10px;
+          }
+          .gray-color-box {
+            background: #BDBDBD;
+          }
+        }
+      }
+    }
+  }
+
+}

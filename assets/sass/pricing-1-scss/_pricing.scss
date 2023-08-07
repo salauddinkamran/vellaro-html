@@ -1,0 +1,191 @@
+#about-7-pricing {
+  padding: 120px 0;
+  background: #FAFAFA;
+  .pricing-title {
+    text-align: center;
+    h2 {
+      color: #252B42;
+      @include encode-font();
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 52px; /* 130% */
+    }
+    p {
+      color: #737373;
+      text-align: center;
+      @include encode-font();
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 22px; /* 137.5% */
+      margin-top: 10px;
+    }
+    .packge-wrapper {
+      display: flex;
+      justify-content: center;
+      margin-top: 50px;
+      .mon-yer {
+        display: flex;
+        align-items: center;
+        margin-right: 20px;
+        span {
+          color: #252b42;
+          @include encode-font();
+          font-size: 17px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 26px;  
+        }
+        .mon-yer-btn {
+          margin: 0px 15px;
+          width: 55px;
+          height: 33px;
+          background: #fff;
+          border: 1px solid #fca311;
+          border-radius: 36px;
+          position: relative;
+          &:after {
+            position: absolute;
+            content: "";
+            width: 25px;
+            height: 25px;
+            background: #ebebeb;
+            top: 3px;
+            left: 3px;
+            border-radius: 50%;
+            border: 2px solid #d0d0d0;
+          }
+        }
+      }
+      .save-btn {
+        padding: 10px 20px;
+        background: #fbedd5;
+        border-radius: 36px;
+        color: #fca311;
+        text-align: center;
+        @include encode-font();
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20px;
+      }
+    }
+  }
+  .pricing-wrapper-row {
+    display: flex;
+    margin-top: 50px;
+    .pricing-item-box {
+      width: 33%;
+      padding: 50px 40px;
+      border-radius: 10px;
+      border: 1px solid #FCA311;
+      text-align: center;
+      transition: all .3s ease;
+      h3 {
+        color: #252b42;
+        @include encode-font();
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 36px;
+      }
+      p {
+        padding: 35px 0;
+        color: #737373;
+        text-align: center;
+        @include montserrat-font();
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+      }
+      h1 {
+        color: #fca311;
+        @include montserrat-font();
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 50px;
+      }
+      span {
+        color: #8ec2f2;
+        @include montserrat-font();
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        display: block;
+      }
+      .pricing-btn {
+        margin: 35px 0;
+        color: #fff;
+        text-align: center;
+        @include montserrat-font();
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 22px;
+        background: #fca311;
+        width: 100%;
+        padding: 10px 0;
+        border: 2px solid #fca311;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all .3s ease;
+        &:hover {
+          background: rgba(0,0,0,0);
+          color: #fca311;
+        }
+      }
+      ul {
+        text-align: left;
+        li {
+          color: #252b42;
+          @include encode-font();
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 20px;
+          margin-bottom: 15px;
+          i {
+            background: #2dc071;
+            color: #fff;
+            padding: 8px;
+            border-radius: 50%;
+            margin-right: 10px;
+          }
+          .gray-color-box {
+            background: #bdbdbd;
+          }
+        }
+      }
+      &:hover {
+        scale: 1.05;
+        background: #252b42;
+        h3 {
+          color: #fff;
+        }
+        p {
+          color: #fff;
+        }
+        ul {
+          li {
+            color: #fff;
+          }
+        }
+      }
+    }
+  } 
+}
+
+#vector h2 {
+  color: #252B42;
+  text-align: center;
+  @include encode-font();
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 150% */
+  margin-bottom: 50px;
+}

@@ -1,0 +1,53 @@
+#ENIM {
+  padding: 120px 0;
+  .ENIM-wrapper {
+    width: 690px;
+    margin: auto;
+    h2 {
+      color: #000;
+      @include montserrat-font();
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 36px; /* 150% */
+      margin: 30px 0;
+    }
+    p {
+      color: #252B42;
+      @include encode-font();
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 22px; /* 137.5% */
+    }
+    h4 {
+      color: #14213D;
+      @include montserrat-font();
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 36px; /* 150% */
+      position: relative;
+      margin-top: 30px;
+      padding: 30px 0;
+      &::after {
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 1px;
+        bottom: 0;
+        left: 0;
+        background: #CECECE;
+      }
+      &::before {
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 1px;
+        top: 0;
+        left: 0;
+        background: #CECECE;
+      }
+    }
+  }
+}

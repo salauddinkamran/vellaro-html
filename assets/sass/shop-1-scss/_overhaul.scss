@@ -1,0 +1,81 @@
+#overhaul {
+  padding: 50px 0;
+  background: #FAFAFA;
+  width: 100%;
+  .overhaul-top-wrapper {
+    display: flex;
+    justify-content: space-between;
+    h3 {
+      @include encode-font();
+      font-style: normal;
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 36px;
+      color: #252B42;
+    }
+    div {
+      span {
+        @include encode-font();
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        color: #BDBDBD;
+        &:hover {
+          color: #252B42;
+        }
+      }
+      i {
+        padding: 0 10px;
+        color: #BDBDBD;
+      }
+    }
+  }
+  .overhaul-down-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    .overhaul-down-col {
+      width: 19%;
+      background-image: url("../../../assets/img/shop-1-img/overhaul-img-1.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 280px;
+      display: flex;
+      align-items: center;
+      .overhaul-down-content {
+        text-align: center;
+        width: 100%;
+        h3 {
+          @include encode-font();
+          font-style: normal;
+          font-weight: 700;
+          font-size: 26px;
+          line-height: 36px;
+          color: #FFFFFF;
+        }
+        span {
+          @include encode-font();
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 22px;
+          color: #FFFFFF;
+
+        }
+      }
+    }
+    .overhaul-down-col:nth-child(2) {
+      background-image: url("../../../assets/img/shop-1-img/overhaul-img-2.png");
+    }
+    .overhaul-down-col:nth-child(3) {
+      background-image: url("../../../assets/img/shop-1-img/overhaul-img-3.png");
+    }
+    .overhaul-down-col:nth-child(4) {
+      background-image: url("../../../assets/img/shop-1-img/overhaul-img-4.png");
+    }
+    .overhaul-down-col:nth-child(5) {
+      background-image: url("../../../assets/img/shop-1-img/overhaul-img-5.png");
+    }
+  }
+}

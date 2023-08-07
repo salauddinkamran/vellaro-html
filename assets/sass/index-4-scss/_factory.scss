@@ -1,0 +1,54 @@
+#fectory {
+  margin-bottom: 120px;
+  .fectory-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .fectory-img-wrapp {
+      width: 40%;
+      display: flex;
+      justify-content: space-between;
+      img {
+        width: 48%;
+        height: 320px;
+      }
+    }
+    .factory-content-wrapp {
+      width: 40%;
+      .border {
+        width: 100px;
+        height: 5px;
+        background: #E74040;
+      }
+      h3 {
+        @include montserrat-font();
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+        color: #252B42;
+        margin: 30px 0;
+      }
+      p {
+        @include montserrat-font();
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #737373;
+        margin-bottom: 30px;
+      }
+      a {
+        @include montserrat-font();
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 24px;
+        color: #FCA311;
+        i {
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+}

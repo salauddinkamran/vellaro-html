@@ -1,0 +1,57 @@
+#what-we-do {
+  padding: 80px 0;
+  .what-we-do-wrapper {
+    text-align: center;
+    h5 {
+      color: #737373;
+      text-align: center;
+      @include encode-font();
+      font-size: 17px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 26px; /* 152.941% */
+    }
+    h1 {
+      color: #252B42;
+      text-align: center;
+      @include encode-font();
+      font-size: 70px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 52px; /* 130% */
+      margin: 16px;
+    }
+    h2 {
+      color: #252B42;
+      text-align: center;
+      @include encode-font();
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 52px; /* 130% */
+      margin: 16px;
+    }
+    div {
+      a {
+        color: #252B42;
+        text-align: center;
+        @include encode-font();
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px; /* 142.857% */
+      }
+      i {
+        color: #BDBDBD;
+        margin: 0 15px;
+      }
+    }
+  }
+}
+
+#about-2-hero {
+  padding-top: 50px;
+  img {
+    width: 100%;
+  }
+}

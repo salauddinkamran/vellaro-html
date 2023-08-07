@@ -1,0 +1,130 @@
+#about-hero {
+  .about-hero-wrapper {
+    .about-heor-content {
+      h6 {
+        color: #252B42;
+        @include encode-font();
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 36px; /* 138.462% */
+        margin-bottom: 15px;
+      }
+      .social-media {
+        margin-top: 25px;
+        i {
+          margin-right: 34px;
+          font-size: 22px;
+          color: #252B42;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+
+
+#visit-our-office {
+  margin: 120px 0;
+  .office-title {
+    text-align: center;
+    margin-bottom: 80px;
+    h6 {
+      color: #252B42;
+      text-align: center;
+      @include encode-font();
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 20px; /* 142.857% */
+    }
+    h2 {
+      color: #252B42;
+      text-align: center;
+      font-family: Encode Sans;
+      @include encode-font();
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 52px; /* 130% */
+    }
+  }
+  .office-wrapper { 
+    display: flex;
+    justify-content: space-between;
+    .office-item {
+      width: 33%;
+      padding: 80px 40px;
+      text-align: center;
+      transition: all .3s ease;
+      i {
+        color: #FCA311;
+        font-size: 50px;
+        margin-bottom: 35px;
+      }
+      h6 {
+        color: #252B42;
+        text-align: center;
+        @include montserrat-font();
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px; /* 171.429% */
+      }
+      h5 {
+        color:#252B42;
+        text-align: center;
+        @include montserrat-font();
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px; /* 150% */
+        margin: 15px 0;
+      }
+      .btn {
+        border-radius: 36px;
+        background: transparent;
+        border: 2px solid #FCA311;
+        color: #FCA311;
+      }
+      &:hover {
+        background: #252B42;
+        h6 {
+          color: #fff;
+        }
+        h5 {
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+
+#lets-talk {
+  margin: 120px 0;
+  .lets-title-wrapper {
+    text-align: center;
+    h6 {
+      color: #252B42;
+      text-align: center;
+      @include encode-font();
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 20px; /* 142.857% */
+    }
+    h1 {
+      color: #252B42;
+      text-align: center;
+      font-family: Encode Sans;
+      @include encode-font();
+      font-size: 70px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 52px; /* 130% */
+      margin: 25px 0;
+    }
+  }
+}

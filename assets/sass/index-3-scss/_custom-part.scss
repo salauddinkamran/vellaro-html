@@ -1,0 +1,42 @@
+#custom-part {
+  display: flex;
+  justify-content: space-between;
+  .custom-wrapp-item-box {
+    width: 24%;
+    position: relative;
+    .custom-content {
+      position: absolute;
+      left: 8%;
+      top: 50%;
+      transform: translateY(-50%);
+      span {
+        @include encode-font();
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #737373;
+      }
+      h5 {
+        font-family: 'Encode Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 36px;
+        color: #252B42;
+        margin: 10px 0;
+      }
+      .exp {
+        @include montserrat-font();
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        color: #252B42;
+      }
+    }
+    img {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+#hero-section {
+  background-image: url("../../../assets/img/about-img/about-6-hero-img.jpg");
+  width: 100%;
+  height: 80vh;
+  background-size: cover;
+  margin-bottom: 500px;
+
+  .hero-content {
+    padding: 120px 0;
+    h1 {
+      color: #252B42;
+      @include encode-font();
+      font-size: 70px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: 80px; /* 114.286% */
+      margin-bottom: 35px;
+    }
+    p {
+      color: #737373;
+      @include encode-font();
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 30px; /* 150% */
+    }
+  }
+  .video-section {
+    img {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+#easy-to-use {
+  padding: 120px 0;
+  .easy-to-use-wrapper {
+    display: flex;
+    justify-content: space-between;
+    .easy-to-use-wrapp-item-box {
+      width: 23%;
+      display: flex;
+      h1 {
+        @include encode-font();
+        font-style: normal;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 52px;
+        color: #2A7CC7;
+      }
+      .easy-to-use-content {
+        margin-left: 20px;
+        h4 {
+          @include encode-font();
+          font-style: normal;
+          font-weight: 700;
+          font-size: 14px;
+          line-height: 20px;
+          color: #252B42;
+          margin-bottom: 5px;
+        }
+        p {
+          @include montserrat-font();
+          font-style: normal;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 16px;
+          color: #737373;
+        }
+      }
+    }
+  }
+}

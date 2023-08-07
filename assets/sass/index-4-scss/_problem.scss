@@ -1,0 +1,31 @@
+#problem {
+  padding-bottom: 120px;
+  .problem-wrapper {
+    display: flex;
+    justify-content: space-between;
+    .problem-wrapp-item {
+      width: 45%;
+      h2 {
+        @include encode-font();
+        font-style: normal;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 52px;
+        color: #252B42;
+        margin-bottom: 25px;
+      }
+      p {
+        @include encode-font();
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #737373;
+        margin-bottom: 80px;
+      }
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

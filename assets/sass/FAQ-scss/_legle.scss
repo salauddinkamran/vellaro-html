@@ -1,0 +1,102 @@
+#legle {
+  padding: 120px 0;
+  background: #FAFAFA;
+  .legal-title-box {
+    margin-bottom: 90px;
+    h2 {
+      color: var(--text-color, #252B42);
+      text-align: center;
+      @include montserrat-font();
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 50px; /* 125% */
+      margin-bottom: 15px;
+    }
+    p {
+      color: #737373;
+      text-align: center;
+      @include montserrat-font();
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 20px; /* 142.857% */
+    }
+  }
+  h3 {
+    color: #252B42;
+    @include montserrat-font();
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 133.333% */
+    margin-bottom: 30px;
+  }
+  .legle-wrappper-box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    .legle-item-box {
+      width: 31%;
+      background: #fff;
+      padding: 25px;
+      border-radius: 7px;
+      display: flex;
+      .icon-box {
+        margin-right: 20px;
+        i {
+          color: #FCA311;
+          font-size: 22px;
+        }
+      }
+      .content-box {
+        h4 {
+          color: #252B42;
+          @include montserrat-font();
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 24px; /* 150% */
+          margin-bottom: 5px;
+        }
+        a {
+          color: #FCA311;
+          @include montserrat-font();
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 24px; /* 171.429% */
+        }
+      }
+    }
+  }
+}
+
+
+#legle-single-content-box {
+  padding: 120px 0;
+  .legle-single-wrappper {
+    width: 690px;
+    margin: auto;
+    .legle-single-item-box {
+      margin-bottom: 50px;
+      h5 {
+        color: #252B42;
+        @include montserrat-font();
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px; /* 150% */
+        margin-bottom: 15px;
+      }
+      p {
+        color: #737373;
+        @include montserrat-font();
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px; /* 142.857% */
+      }
+    }
+  }
+}

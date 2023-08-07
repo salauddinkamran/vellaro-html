@@ -1,0 +1,70 @@
+#our-top-product {
+  padding: 120px 0;
+  background: #ECECEC;
+  .our-top-product-wrapper {
+    display: flex;
+    align-items: center;
+    .our-top-product-content-wrapper {
+      margin-left: 60px;
+      h1 {
+        @include encode-font();
+        font-style: normal;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 52px;
+        color: #252B42;
+        margin-bottom: 10px;
+      }
+      p {
+        font-family: 'Encode Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #737373;
+      }
+      .our-top-product-content-wrapp-box {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+        .our-top-product-content-item {
+          width: 47%;
+          background: #fff;
+          padding: 25px 20px;
+          display: flex;
+          .img-box {
+            height: 60px;
+            width: 100px;
+            background: #2a7cc7;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            img {
+              display: block;
+              margin: auto;
+            }
+          }
+          .content {
+            margin-left: 15px;
+            h5 {
+              @include montserrat-font();
+              font-style: normal;
+              font-weight: 700;
+              font-size: 14px;
+              line-height: 24px;
+              color: #252B42;
+            }
+            p {
+              @include montserrat-font();
+              font-style: normal;
+              font-weight: 400;
+              font-size: 12px;
+              line-height: 16px;
+              color: #737373;
+            }
+          }
+        }
+      }
+    }
+  }
+}

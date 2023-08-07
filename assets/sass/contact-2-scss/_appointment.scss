@@ -1,0 +1,68 @@
+#appointment {
+  padding: 120px 0;
+  .appointment-wrapper{
+    display: flex;
+    justify-content: space-between;
+    .appointment-content {
+      width: 48%;
+      h5 {
+        color: #737373;
+        @include montserrat-font();
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px; /* 150% */
+      }
+      h2 {
+        color: #252B42;
+        @include encode-font();
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 52px; /* 130% */
+      }
+      form {
+        margin-top: 40px;
+        .input-box {
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 20px;
+          input {
+            width: 48%;
+            border-radius: 5px;
+            border: 1px solid #E6E6E6;
+            background: #F9F9F9;
+            color: #737373;
+            padding: 11px 21px;
+            outline: none;
+          }
+          select {
+            width: 48%;
+            border-radius: 5px;
+            border: 1px solid #E6E6E6;
+            background: #F9F9F9;
+            color: #737373;
+            padding: 11px 21px;
+            outline: none;
+          }
+        }
+        .textarea {
+          width: 100%;
+          height: 150px;
+          border-radius: 5px;
+          border: 1px solid #E6E6E6;
+          background: #F9F9F9;
+          color: #737373;
+          padding: 11px 21px;
+          outline: none;
+        }
+      }
+      .btn {
+        margin-top: 40px;
+      }
+    }
+    .appointment-map {
+      width: 48%;
+    }
+  }
+}

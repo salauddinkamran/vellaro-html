@@ -1,0 +1,32 @@
+#easy {
+  padding-bottom: 120px;
+  .easy-wrapper {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    .easy-wrapper-item {
+      i {
+        font-size: 40px;
+        color: #FCA311;
+        margin-bottom: 25px;
+      }
+      h3 {
+        @include montserrat-font();
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        color: #252B42;
+      }
+      p {
+        @include encode-font();
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #737373;
+        margin-top: 10px;
+      }
+    }
+  }
+}

@@ -1,0 +1,100 @@
+#explore {
+  margin: 120px 0;
+  .explore-wrapper {
+    display: flex;
+    justify-content: space-between;
+    .explore-item-box {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 48%;
+      .explore-content {
+        margin-left: 30px;
+      }
+    }
+    .explore-item-1 {
+      background-image: url(../../../assets/img/index-4-img/explore-img-3.png);
+      background-size: cover;
+      background-position: center;
+      h5 {
+        @include montserrat-font();
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 24px;
+        color: #E77C40;
+      }
+      h3 {
+        @include encode-font();
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 36px;
+        color: #252B42;
+        margin: 10px 0 12px 0;
+      }
+      p {
+        @include encode-font();
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #737373;
+        margin-bottom: 15px;
+      }
+      a {
+        @include encode-font();
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #252B42;
+        transition: all .3s ease;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+    .explore-item-2 {
+      background: #F16F52;
+      h5 {
+        @include montserrat-font();
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 24px;
+        color: #ffffff;
+      }
+      h3 {
+        @include encode-font();
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 36px;
+        color: #ffffff;
+        margin: 10px 0 12px 0;
+      }
+      p {
+        @include encode-font();
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #ffffff;
+        margin-bottom: 15px;
+      }
+      a {
+        @include encode-font();
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #ffffff;
+        transition: all .3s ease;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

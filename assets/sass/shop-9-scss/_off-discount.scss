@@ -1,0 +1,92 @@
+#all-product-detail {
+  .all-product-detail-product-row {
+    .off-discount-section {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #DCE7FE;
+      padding: 50px 60px;
+      border-radius: 5px;
+      margin-bottom: 50px;
+      .off-content-box {
+        span {
+          color: #FCA311;
+          font-size: 14px;
+          @include encode-font();
+          font-style: normal;
+          font-weight: 700;
+          line-height: 20px;
+        }
+        h2 {
+          color: #252B42;
+          font-size: 40px;
+          @include encode-font();
+          font-style: normal;
+          font-weight: 800;
+          line-height: 52px;
+          margin: 20px 0;
+        }
+        p {
+          color: #737373;
+          font-size: 16px;
+          @include encode-font();
+          font-style: normal;
+          font-weight: 400;
+          line-height: 22px;
+          margin-bottom: 20px;
+        }
+      }
+      .off-image-box {
+        position: relative;
+        z-index: 1;
+        .round-box-one {
+          width: 300px;
+          height: 300px;
+          position: absolute;
+          background: #473bf0;
+          border-radius: 50%;
+          top: -15px;
+          left: 50px;
+          z-index: -1;
+        }
+        .round-box-two {
+          width: 60px;
+          height: 60px;
+          position: absolute;
+          background: #FFE9EA;
+          border-radius: 50%;
+          top: 0;
+          left: 0;
+          z-index: -1;
+        }
+        .round-box-three {
+          width: 25px;
+          height: 25px;
+          position: absolute;
+          background: #ffe9ea;
+          border-radius: 50%;
+          right: -40px;
+          bottom: 120px;
+        }
+        .round-box-fore {
+          width: 10px;
+          height: 10px;
+          position: absolute;
+          background: #473bf0;
+          border-radius: 50%;
+          left: 40px;
+          bottom: 60px;
+        }
+        .round-box-five {
+          width: 10px;
+          height: 10px;
+          position: absolute;
+          background: #473bf0;
+          border-radius: 50%;
+          right: -30px;
+          top: 20px;
+        }
+      }
+    }
+  }
+}

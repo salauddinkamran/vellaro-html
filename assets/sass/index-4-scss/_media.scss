@@ -1,0 +1,84 @@
+#media {
+  .top-media-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    .top-media-item {
+      background-image: url("../../../assets/img/index-4-img/media-bg-1.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 32%;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      .top-media-content {
+        width: 100%;
+        h3 {
+          @include encode-font();
+          font-style: normal;
+          font-weight: 700;
+          font-size: 26px;
+          line-height: 36px;
+          color: #FFFFFF;
+          text-align: center;
+          margin-bottom: 30px;
+        }
+        span {
+          @include encode-font();
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 22px;
+          color: #FFFFFF;
+          display: block;
+          text-align: center;
+        }
+      }
+    }
+    .top-media-item:nth-child(2) {
+      background-image: url("../../../assets/img/index-4-img/media-bg-2.png");
+    }
+    .top-media-item:nth-child(3) {
+      background-image: url("../../../assets/img/index-4-img/media-bg-3.png");
+    }
+  }
+  .down-media-wrapper {
+    display: flex;
+    justify-content: space-between;
+    .down-media-item {
+      background-image: url("../../../assets/img/index-4-img/media-bg-4.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 49%;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      .down-media-content {
+        width: 100%;
+        h3 {
+          @include encode-font();
+          font-style: normal;
+          font-weight: 700;
+          font-size: 26px;
+          line-height: 36px;
+          color: #FFFFFF;
+          text-align: center;
+          margin-bottom: 30px;
+        }
+        span {
+          @include encode-font();
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 22px;
+          color: #FFFFFF;
+          display: block;
+          text-align: center;
+        }
+      }
+    }
+    .down-media-item:nth-child(2) {
+      background-image: url("../../../assets/img/index-4-img/media-bg-5.png");
+    }
+  }
+}

@@ -1,0 +1,56 @@
+#resolve {
+  padding: 120px 0;
+  .rosolve-title {
+    margin-bottom: 80px;
+    h2 {
+      @include encode-font();
+      font-style: normal;
+      font-weight: 800;
+      font-size: 40px;
+      line-height: 52px;
+      color: #252B42;
+      text-align: center;
+    }
+  }
+  .resolve-wrappper {
+    display: flex;
+    justify-content: space-between;
+    .resolve-wrapp-item-box {
+      h4 {
+        @include encode-font();
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 26px;
+        color: #252B42;
+      }
+      span {
+        display: block;
+        margin: 10px 0;
+        @include encode-font();
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #737373;
+      }
+      p {
+        @include encode-font();
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        color: #BDBDBD;
+        b {
+          @include encode-font();
+          font-style: normal;
+          font-weight: 700;
+          font-size: 14px;
+          line-height: 20px;
+          color: #14213D;
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+}

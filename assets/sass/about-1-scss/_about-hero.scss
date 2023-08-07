@@ -1,0 +1,93 @@
+#about-hero {
+  .about-hero-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .about-heor-content {
+      width: 50%;
+      h4 {
+        color: #252B42;
+        @include encode-font();
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px; /* 152.941% */
+      }
+      h1 {
+        color: #252B42;
+        @include encode-font();
+        font-size: 70px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 80px; /* 114.286% */
+        margin: 35px 0;
+      }
+      p {
+        color: #737373;
+        @include encode-font();
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px; /* 150% */
+        margin-bottom: 35px;
+      }
+    }
+    .hero-img-box {
+      width: 50%;
+      position: relative;
+      img {
+        z-index: 1;
+      }
+      .round-box-one {
+        position: absolute;
+        width: 485px;
+        height: 485px;
+        background: #FFE9EA;
+        border-radius: 50%;
+        top: 10%;
+        left: 6%;
+        z-index: -1;
+      }
+      .round-box-two {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        background: #FFE9EA;
+        border-radius: 50%;
+        top: 45px;
+        left: -20px;
+        z-index: -1;
+      }
+      .round-box-three {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        background: #FFE9EA;
+        border-radius: 50%;
+        bottom: 325px;
+        right: 8px;
+        z-index: -1;
+      }
+      .round-box-fore {
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        background: #977DF4;
+        border-radius: 50%;
+        bottom: 180px;
+        left: 30px;
+        z-index: -1;
+      }
+      .round-box-five {
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        background: #977DF4;
+        border-radius: 50%;
+        top: 150px;
+        right: -15px;
+        z-index: -1;
+      }
+    }
+  }
+}

@@ -1,0 +1,72 @@
+// media query breakpoints 1180px
+@media (max-width:1180px) {
+  .container {
+    width: 95%;
+  }
+}
+
+
+
+
+// media query breakpoints 1024px
+@media (max-width:1024px) {
+  #header {
+    .header-wrapper {
+      .navbar {
+        .menu {
+          li {
+            padding: 0 15px !important;
+          }
+        }
+      }
+      .login-register {
+        a {
+          display: none;
+        }  
+      }
+    }
+  }
+}
+
+
+
+
+
+// media query breakpoints 991px
+@media (max-width:991px) {
+  #header {
+    .header-wrapper {
+      align-items: start;
+      position: relative;
+      .navbar {
+        padding-top: 100px;
+        position: absolute;
+        top: -1000px;
+        transform: translateX(50%);
+        transition: all .3s ease;
+        z-index: 1;
+        .menu {
+          li {
+            display: block;
+            margin-bottom: 30px;
+          }
+        }
+      }
+      .active-nav {
+        top: 0;
+        // height: 400px;
+        background: #fafafa;
+      }
+      .login-register {
+        .fa-bars-staggered {
+          display: inline;
+        }
+      }
+    }
+  }
+
+  // #banner {
+  //   margin-top: 360px;
+  // }
+
+}

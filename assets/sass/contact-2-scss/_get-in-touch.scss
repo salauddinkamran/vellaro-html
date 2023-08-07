@@ -1,0 +1,54 @@
+#get-in-touch {
+  padding: 120px 0;
+  .get-in-touch-wrapper {
+    text-align: center;
+    h6 {
+      color: #252B42;
+      text-align: center;
+      @include encode-font();
+      font-size: 17px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 26px; /* 152.941% */
+      margin-bottom: 16px;
+    }
+    h2 {
+      color: #252B42;
+      text-align: center;
+      @include encode-font();
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 52px; /* 130% */
+      margin-bottom: 16px;
+    }
+    p {
+      color: #737373;
+      text-align: center;
+      @include encode-font();
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 30px; /* 150% */
+      margin-bottom: 16px;
+    }
+    h5 {
+      color: #252B42;
+      text-align: center;
+      @include encode-font();
+      font-size: 26px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 26px; /* 152.941% */
+      margin-bottom: 16px;
+    }
+    .social-media {
+      margin-top: 26px;
+      i {
+        font-size: 30px;
+        color: #252B42;
+        margin-right: 34px;
+      }
+    } 
+  }
+}

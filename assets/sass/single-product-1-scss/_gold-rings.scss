@@ -1,0 +1,80 @@
+#gold-rings {
+  .gold-rings-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .gold-rings-content {
+      margin-left: 90px;
+      width: 50%;
+      h3 {
+        color: #252B42;
+        @include encode-font();
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 52px; /* 130% */
+      }
+      h4 {
+        color: #737373;
+        @include encode-font();
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px; /* 150% */
+        margin: 16px 0;
+      }
+      p {
+        color: #737373;
+        @include encode-font();
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px; /* 137.5% */
+        margin-bottom: 16px;
+      }
+      .gold-rings-btn-box {
+        .show-btn {
+          padding: 15px 40px;
+          background: #252B42;
+          border: 2px solid #252B42;
+          border-radius: 5px;
+          color: #FFF;
+          text-align: center;
+          @include encode-font();
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 22px; /* 137.5% */
+          cursor: pointer;
+          transition: all .3s ease;
+          &:hover {
+            background: transparent;
+            color: #252B42;
+          }
+        }
+        .view-btn {
+          padding: 15px 40px;
+          background: transparent;
+          border: 2px solid #252B42;
+          border-radius: 5px;
+          color: #252B42;
+          text-align: center;
+          @include encode-font();
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 22px; /* 137.5% */
+          cursor: pointer;
+          transition: all .3s ease;
+          &:hover {
+            background: #252B42;
+            color: #FFF;
+          }
+        }
+      }
+    }
+    img {
+      width: 50%;
+    }
+  }
+}

@@ -1,0 +1,54 @@
+#team-4-subscribe {
+  background-image: url("../../../assets/img/team/team-4-subscribe-bg-img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: block;
+  margin-bottom: 120px;
+  .subscribe-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 200px;
+    .subscribe-item-box {
+      h2 {
+        color: var(--light-text-color, #FFF);
+        @include encode-font();
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 52px; /* 130% */
+      }
+      .paragraph {
+        color: #FFF;
+        @include encode-font();
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px; /* 137.5% */
+        margin: 36px 0;
+      }
+      .sub-small-box {
+        padding: 25px;
+        .small-text {
+          color: #FFF;
+          @include encode-font();
+          font-size: 17px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 26px; /* 152.941% */
+        }
+      }
+    }
+    .sub-box-one {
+      width: 45%;
+    }
+    .sub-box-two {
+      width: 20%;
+    }
+    .sub-box-three {
+      width: 20%;
+    }
+  }
+}

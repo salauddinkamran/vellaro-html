@@ -1,0 +1,123 @@
+#testimonial {
+  background: #FAFAFA;
+  padding: 50px 0;
+  .testimonial-wrapper {
+    display: flex;
+    justify-content: space-between;
+    .testimonial-pepole-box {
+      width: 48%;
+      .testimonial-pepole-wrapper {
+        display: flex;
+        .img-box {
+          margin-right: 33px;
+        }
+        .content-box {
+          h4 {
+            color: #252B42;
+            @include encode-font();
+            font-size: 17px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 26px;
+          }
+          span {
+            color: #737373;
+            @include montserrat-font();
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 24px;
+          }
+          .start-icon {
+            margin: 15px 0;
+            i {
+              color: #F3CD03;
+            }
+          }
+          p {
+            color: #737373;
+            @include montserrat-font();
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: 0.2px;
+          }
+        }
+      }
+    }
+    .testimonial-form-box {
+      width: 48%;
+      h4 {
+        color:#252B42;
+        @include encode-font();
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px;
+        letter-spacing: 0.1px;
+      }
+      p {
+        color: #737373;
+        @include montserrat-font();
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+      }
+      .rating-box {
+        display: flex;
+        align-items: center;
+        margin: 40px 0;
+        .star-icon {
+          margin-left: 10px;
+        }
+      }
+      form {
+        margin-bottom: 40px;
+        .textarea {
+          width: 100%;
+          height: 150px;
+          color: #BDBDBD;
+          @include montserrat-font();
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 24px;
+          border: 1px solid #BDBDBD;
+          outline: none;
+          border-radius: 5px;
+          padding: 16px 26px;
+        }
+        .name-box {
+          display: flex;
+          justify-content: space-between;
+          margin: 20px 0;
+          input {
+            width: 48%;
+            color: #737373;
+            @include montserrat-font();
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 28px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: 1px solid #BDBDBD;
+            outline: none;
+          }
+        }
+        span {
+          color: #737373;
+          @include montserrat-font();
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 16px;
+        }
+      }
+
+    }
+  }
+}
