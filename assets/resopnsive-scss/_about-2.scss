@@ -1,0 +1,91 @@
+
+
+
+// media query breakpoints 1100px 
+@media (max-width: 1100px) {
+  #pricing {
+    .priceing-wrapper-box {
+      flex-wrap: wrap;
+      .pricing-item-box {
+        width: 48%;
+        &:nth-child(3) {
+          margin-top: 50px;
+        }
+      }
+    }
+  }
+}
+
+
+// media query breakpoints 991px
+@media (max-width: 991px) {
+  #sharing {
+    .sharing-wrapper {
+      flex-wrap: wrap;
+      .sharing-item-box {
+        width: 48%;
+        margin-top: 30px;
+      }
+    }
+  }
+}
+
+
+
+// media query breakpoints 768px 
+@media (max-width: 768px) {
+  #pricing {
+    .priceing-wrapper-box {
+      .pricing-item-box {
+        width: 100%;
+        &:nth-child(2) {
+          margin-top: 50px;
+        }
+      }
+    }
+  }
+}
+
+
+
+// media query breakpoints 991px
+@media (max-width: 660px) {
+  #sharing {
+    .sharing-wrapper {
+      .sharing-item-box {
+        width: 100%;
+        justify-content: center;
+      }
+    }
+  }
+}
+
+
+
+
+
+// media query breakpoints 500px
+@media (max-width: 500px) {
+  #what-we-do {
+    .what-we-do-wrapper {
+      h2 {
+        font-size: 35px;
+      }
+    }
+  }
+
+  #about-2-hero {
+    img {
+      height: 30vh;
+    }
+  }
+
+
+  #sharing {
+    .sharing-title {
+      h1 {
+        font-size: 35px;
+      }
+    }
+  }
+}

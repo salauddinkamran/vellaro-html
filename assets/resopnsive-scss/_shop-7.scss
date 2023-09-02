@@ -1,0 +1,53 @@
+// media query breakpoints 991px 
+@media (max-width: 991px) {
+  #shop-7-media {
+    .shop-7-media-card-wrapper-one {
+      flex-wrap: wrap;
+      .media-card-box {
+        width: 48%;
+        &:nth-child(3) {
+          margin-top: 30px;
+        }
+      }
+    }
+    .shop-7-media-card-wrapper-two {
+      flex-wrap: wrap;
+      .media-card-box,
+      .media-card-box-five,
+      .media-card-box-six {
+        width: 48%;
+      }
+      .media-card-box-six {
+        margin-top: 30px;
+      }
+    }
+  }
+} 
+
+
+
+// media query breakpoints 500px 
+@media (max-width: 500px) {
+  #shop-7-media {
+    .shop-7-media-card-wrapper-one {
+      flex-wrap: wrap;
+      .media-card-box {
+        width: 100%;
+        &:nth-child(1) {
+          margin-bottom: 30px;
+        }
+      }
+    }
+    .shop-7-media-card-wrapper-two {
+      flex-wrap: wrap;
+      .media-card-box,
+      .media-card-box-five,
+      .media-card-box-six {
+        width: 100%;
+      }
+      .media-card-box {
+        margin-bottom: 30px;
+      }
+    }
+  }
+}

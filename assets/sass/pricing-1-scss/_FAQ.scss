@@ -25,6 +25,7 @@
   .FAQ-wrapper {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin-bottom: 30px;
     .FAQ-item-col {
       width: 45%;

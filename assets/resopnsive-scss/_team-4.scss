@@ -1,0 +1,102 @@
+
+
+
+
+// media query breakpoint 991px
+@media (max-width: 991px) {
+  #so-it-really {
+    .so-it-really-wrapper {
+      flex-wrap: wrap;
+      .wrapper-content {
+        width: 48%;
+        &:nth-child(3) {
+          margin-top: 80px;
+        }
+      }
+    }
+  }
+
+  #team-4-subscribe {
+    height: 130vh;
+    .subscribe-wrapper {
+      flex-wrap: wrap;
+      justify-content: center;
+      .sub-box-one {
+        width: 100%;
+        margin-bottom: 50px;
+      }
+      .sub-box-two {
+        width: 50%;
+      }
+      .sub-box-three {
+        width: 50%;
+      }
+    }
+  }
+}
+
+
+
+
+// media query breakpoint 660px
+@media (max-width: 660px) {
+  #so-it-really {
+    .so-it-really-wrapper {
+      .wrapper-content {
+        width: 100%;
+        &:nth-child(2) {
+          margin-top: 80px;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+// media query breakpoint 500px
+@media (max-width: 500px) {
+  #so-it-really {
+    .so-it-really-wrapper {
+      .wrapper-content {
+        h2 {
+          font-size: 35px;
+        }
+      }
+    }
+  }
+
+  #we-love {
+    .we-love-wrappper {
+      .img-box {
+        img {
+          width: 100%;
+        }
+      }
+    }
+  } 
+
+  #team-4-subscribe {
+    height: 170vh;
+    .subscribe-wrapper {
+      .sub-box-two {
+        width: 100%;
+      }
+      .sub-box-three {
+        width: 100%;
+      }
+    }
+  }
+}
+
+
+
+
+
+// media query breakpoints 392px
+@media (max-width: 392px) {
+  #team-4-subscribe {
+    height: 180vh;
+  }
+}

@@ -1,0 +1,173 @@
+// media query breakpoints 1400px 
+@media (max-width: 1400px) {
+  #grow {
+    padding: 100px 0;
+    img {
+      display: none;
+    }
+  }
+}
+
+
+
+// media query breakpoints 991px 
+@media (max-width: 991px) {
+  #about-hero {
+    margin-top: 80px;
+    .about-hero-wrapper {
+      flex-direction: column;
+      .about-heor-content {
+        margin-bottom: 80px;
+        width: 70%;
+      }
+      .hero-img-box {
+        width: 70%;
+      }
+    }
+  }
+
+
+  #grow {
+    padding: 100px 0;
+    .grow-content {
+      margin-left: 100px;
+    }
+  }
+
+
+  #big-company {
+    .vector-wrapper {
+      flex-wrap: wrap;
+      text-align: center;
+      .vector-img {
+        width: 32%;
+        margin-bottom: 60px;
+      }
+    }
+  }
+
+}
+
+
+
+// media query breakpoints 768px
+@media (max-width: 768px) {
+  #package {
+    .customers-box-wrapper{
+      flex-wrap: wrap;
+      .customers-box-item {
+        width: 50%;
+        &:nth-child(1),
+        &:nth-child(2) {
+          margin-bottom: 50px;
+        }
+      }
+    }
+  }
+}
+
+
+
+// media query breakpoints 660px 
+@media (max-width: 660px) {
+  #about-hero {
+    .about-hero-wrapper {
+      .about-heor-content {
+        width: 100%;
+        h1 {
+          font-size: 55px;
+        }
+      }
+      .hero-img-box {
+        width: 100%;
+        img {
+          width: 100%;
+        }
+        .round-box-one {
+          width: 350px;
+          height: 350px;
+        }
+      }
+    }
+  }
+
+  #package {
+    .top-box-content {
+      flex-direction: column;
+      .left-text-content-box {
+        margin-bottom: 50px;
+      }
+    }
+  }
+
+  #our-teem {
+    .our-teem-wrapper {
+      flex-wrap: wrap;
+      justify-content: space-around;
+      .our-teem-item {
+        width: 48%;
+        &:nth-child(3) {
+          margin-top: 50px;
+        }
+      }
+    }
+  }
+
+
+  #big-company {
+    .vector-wrapper {
+      .vector-img {
+        width: 48%;
+      }
+    }
+  }  
+}
+
+
+
+
+
+// media query breakpoints 500px
+@media (max-width: 500px) {
+  #package {
+    .customers-box-wrapper{
+      flex-wrap: wrap;
+      .customers-box-item {
+        width: 100%;
+        &:nth-child(3) {
+          margin-bottom: 50px;
+        }
+      }
+    }
+  }
+
+  #our-teem {
+    .our-teem-wrapper {
+      flex-wrap: wrap;
+      .our-teem-item {
+        width: 100%;
+        &:nth-child(2) {
+          margin-top: 50px;
+        }
+      }
+    }
+  }
+
+
+  #big-company {
+    .vector-wrapper {
+      .vector-img {
+        width: 100%;
+      }
+    }
+  }
+  
+  
+  #grow {
+    .grow-content {
+      margin-left: 30px
+      
+      ;
+    }
+  }
+}

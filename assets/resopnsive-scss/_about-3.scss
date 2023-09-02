@@ -1,0 +1,159 @@
+
+
+// media query breakpoints 991px
+@media (min-width: 991px) {
+  #header-section {
+    .header-wrapper {
+      .header-icon-box {
+        .fa-magnifying-glass,
+        .fa-cart-shopping,
+        .fa-heart {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+
+// media query breakpoints 1180px
+@media (max-width: 1180px) {
+  #header-section {
+    .header-wrapper {
+      .header-btn {
+        margin-left: 0;
+      } 
+    }
+  }
+  .login-dis-none {
+    display: none;
+  }
+
+}
+
+
+
+// media query breakpoints 1100px
+@media (max-width: 1100px) {
+  #subscribe {
+    .subscribe-wrapper {
+      flex-wrap: wrap;
+      .subscribe-items-box-one,
+      .subscribe-items-box-two {
+        width: 48%;
+      }
+      img {
+        width: 40%;
+      }
+    }
+  }
+}
+
+
+
+
+
+// media query breakpoints 1024px
+@media (max-width: 1024px) {
+  #header-section {
+    .header-wrapper {
+      .header-btn { 
+        padding: 15px;
+      }
+    }
+  }
+}
+
+
+
+
+// media query breakpoints 991px
+@media (max-width: 991px) {
+
+  #about-3-hero {
+    &:after {
+      display: none;
+    }
+  }
+  #header-section {
+    .header-wrapper {
+      .header-btn { 
+        display: none;
+      }
+    }
+  }
+
+
+}
+
+
+
+
+
+// media query breakpoints 850px
+@media (max-width: 850px) {
+  #helps {
+    .helps-wrapper {
+      .helps-item {
+        h5 {
+          width: 70px;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+// media query breakpoints 660px
+@media (max-width: 660px) {
+  #about-3-hero {
+    .about-hero-content-box {
+      h1 {
+        font-size: 55px;
+      }
+    }
+  }
+
+  #helps {
+    .helps-wrapper {
+      .helps-item {
+        width: 100%;
+        h5 {
+          width: 50px;
+        }
+      }
+    }
+  }
+
+  #subscribe {
+    .subscribe-wrapper {
+      flex-wrap: wrap;
+      .subscribe-items-box-one,
+      .subscribe-items-box-two {
+        width: 100%;
+      }
+      img {
+        width: 100%;
+        margin: 80px 0;
+      }
+    }
+  }
+}
+
+
+
+// media query breakpoints 440px
+@media (max-width: 440px) {
+  #header-section {
+    .header-wrapper {
+      .navbar {
+        li {
+          padding: 0;
+        }
+      }
+    }
+  }
+}

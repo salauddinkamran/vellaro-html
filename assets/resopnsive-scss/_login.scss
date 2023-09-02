@@ -1,0 +1,17 @@
+
+
+
+
+// media query breakpoints 500px
+@media (max-width: 500px) {
+  #sing-up {
+    .sing-up-wrapper {
+      .sing-up-title {
+        h2 {
+          font-size: 35px;
+        }
+      }
+      width: 100%;
+    }
+  }
+}

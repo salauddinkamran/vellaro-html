@@ -1,0 +1,36 @@
+
+
+
+
+// media query breakpoints 768px
+@media (max-width: 768px) {
+  #legle {
+    .legle-wrappper-box {
+      flex-wrap: wrap;
+      justify-content: space-around;
+      .legle-item-box {
+        width: 48%;
+        &:nth-child(3) {
+          margin-top: 30px;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+// media query breakpoints 500px
+@media (max-width: 500px) {
+  #legle {
+    .legle-wrappper-box {
+      .legle-item-box {
+        width: 100%;
+        &:nth-child(2) {
+          margin-top: 30px;
+        }
+      }
+    }
+  }
+}

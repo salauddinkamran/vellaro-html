@@ -1,0 +1,38 @@
+
+// media query breakpoints 991px 
+@media (min-width: 991px) {
+  #shop-bg {
+    #header-section {
+      .header-wrapper {
+        .logo {
+          color: #fff;
+        }
+        .navbar {
+          li {
+            a {
+              color: #fff;
+            }
+          }
+        }
+        .register-login-box {
+          a {
+            color: #fff;
+            i {
+              color: #fff;
+            }
+          }
+          span {
+            color: #fff;
+          }
+        }
+        .header-icon-box {
+          i {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
+
+

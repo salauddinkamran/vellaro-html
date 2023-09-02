@@ -1,0 +1,32 @@
+
+
+
+
+// media query breakpoints 768px
+@media (max-width: 768px) {
+  #what-we-do {
+    .what-we-do-wrapper {
+      .blog-btn-wrapper {
+        .btn {
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+// blog-3-scss 
+// media query brekpoints 660px
+@media (max-width: 660px) {
+  #blog-bg {
+    .blog-bg-wrapper {
+      h2 {
+        font-size: 55px;
+      }
+    }
+  }
+}

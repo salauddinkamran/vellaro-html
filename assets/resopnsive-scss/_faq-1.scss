@@ -1,0 +1,66 @@
+
+
+
+
+// media query breakpoints 768px
+@media (max-width: 768px) {
+  #question {
+    .question-wrapper-box {
+      width: 100%;
+    }
+  }
+
+  #send-email {
+    .send-email-wrapper {
+      width: 100%;
+    }
+  }
+}
+
+
+
+
+// media query breakpoints 660px
+@media (max-width: 660px) {
+  #send-email {
+    .send-email-wrapper {
+      form {
+        flex-direction: column;
+        input {
+          width: 100%;
+          border-top-right-radius: 5px;
+          border-bottom-right-radius: 5px;
+          padding: 15px 20px;
+        }
+        .btn {
+          width: 50%;
+          border-top-left-radius: 5px;
+          border-bottom-left-radius: 5px;
+          margin: auto;
+          margin-top: 30px;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+// media query breakpoints 660px
+@media (max-width: 660px) {
+  #send-email {
+    .send-email-wrapper {
+      .send-email-title {
+        h2 {
+          font-size: 35px;
+        }
+      }
+      form {
+        .btn {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

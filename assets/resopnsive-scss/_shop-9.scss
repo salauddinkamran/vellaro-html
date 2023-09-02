@@ -1,0 +1,34 @@
+// media query breakpoints 768px 
+@media (max-width: 768px) {
+  #all-product-detail {
+    .all-product-detail-product-row {
+      .off-discount-section {
+        flex-direction: column;
+        .off-content-box {
+          margin-bottom: 100px;
+        }
+      }
+    }
+  }
+}
+
+
+
+// media query breakpoints 500px 
+@media (max-width: 500px) {
+  #all-product-detail {
+    .all-product-detail-product-row {
+      .off-discount-section {
+        .off-image-box {
+          img {
+            width: 100%;
+          }
+          .round-box-one {
+            width: 100%;
+            height: 110%;
+          }
+        }
+      }
+    }
+  }
+}

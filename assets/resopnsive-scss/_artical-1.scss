@@ -1,0 +1,31 @@
+
+
+
+
+// media query breakpoints 768px
+@media (max-width: 768px) {
+  #ENIM {
+    .ENIM-wrapper {
+      width: 100%;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+
+
+
+
+// media query breakpoints 660px
+@media (max-width: 660px) {
+  #article-testimonial {
+    .article-testimonial-wrapper {
+      flex-direction: column;
+      .content-box {
+        padding: 25px 0;
+      }
+    }
+  }
+}

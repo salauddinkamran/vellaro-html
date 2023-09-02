@@ -1,0 +1,44 @@
+
+
+// media query breakpoints 768px
+@media (max-width: 768px) {
+  #testimonial {
+    .testimonial-wrapper {
+      flex-direction: column-reverse;
+      .testimonial-pepole-box {
+        width: 100%;
+      }
+      .testimonial-form-box {
+        width: 100%;
+        margin-bottom: 80px;
+        .btn {
+          width: 50%;
+        }
+      }
+    }
+  }
+}
+
+
+
+// media query breakpoints 500px
+@media (max-width: 500px) {
+  #testimonial {
+    .testimonial-wrapper {
+      .testimonial-form-box {
+        form {
+          .name-box {
+            flex-direction: column;
+            input {
+              width: 100%;
+              margin-bottom: 20px;
+            }
+          }
+        }
+        .btn {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

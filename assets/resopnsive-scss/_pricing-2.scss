@@ -1,0 +1,51 @@
+
+
+
+
+
+// media query breakpoints 690px
+@media (max-width: 690px) {
+  #asked-question {
+    .asked-question-wrapper {
+      width: 100%;
+    }
+  }
+}
+
+
+
+
+// media query breakpoints 660px
+@media (max-width: 660px) {
+
+  #asked-question {
+    .asked-question-wrapper {
+      .asked-title {
+        h2 {
+          font-size: 35px;
+        }
+      }  
+    }
+  }
+
+
+  #trial {
+    .trial-content {
+      h2 {
+        font-size: 35px;
+      }
+    }
+  }
+
+
+  #pricing-2-subscribe {
+    .pricing-wrapper {
+      flex-direction: column;
+      h2 {
+        text-align: center;
+        margin-bottom: 50px;
+        font-size: 35px;
+      }
+    }
+  }  
+}

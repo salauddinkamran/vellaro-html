@@ -1,0 +1,59 @@
+
+
+
+// media query breakpoints 1024px
+@media (max-width: 1024px) {
+  #about-7-pricing {
+    .pricing-wrapper-row{ 
+      flex-wrap: wrap;
+      justify-content: space-around;
+      .pricing-item-box{ 
+        width: 48%;
+        &:nth-child(3) {
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+}
+
+
+
+// media query breakpoints 768px
+@media (max-width: 768px) {
+  #about-7-pricing {
+    .pricing-wrapper-row{
+      .pricing-item-box{ 
+        width: 100%;
+        margin-bottom: 20px;
+        &:last-child {
+          margin-top: 0;
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+// media query breakpoints 660px
+@media (max-width: 660px) {
+  #what-we-do {
+    .what-we-do-wrapper {
+      h1 {
+        font-size: 55px;
+        line-height: 70px;
+      }
+    } 
+  }
+  #FAQ {
+    .FAQ-wrapper {
+      .FAQ-item-col {
+        width: 100%;
+      }
+    }
+  }
+}

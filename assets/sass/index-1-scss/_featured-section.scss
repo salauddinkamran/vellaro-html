@@ -36,13 +36,13 @@
     display: flex;
     justify-content: space-between;
     .featured-item-box {
-      background-image: url('./img/bsp-bg-1.png');
+      background-image: url('../../../assets/img/index-1-img/bsp-bg-1.png');
       background-repeat: no-repeat;
       &:nth-child(2) {
-        background-image: url('./img/bsp-bg-2.png');
+        background-image: url('../../../assets/img/index-1-img/bsp-bg-2.png');
       }
       &:nth-child(3) {
-        background-image: url('./img/bsp-bg-3.png');
+        background-image: url('../../../assets/img/index-1-img/bsp-bg-3.png');
       }
       h3 {
         @include encode-font();
@@ -64,7 +64,7 @@
         display: block;
       }
       img {
-        width: 100% !important;
+        // width: 100% !important;
       }
     }
   }

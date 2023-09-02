@@ -1,0 +1,17 @@
+
+
+// media query breakpoints 768px
+@media (max-width: 768px) {
+  #gallery {
+    .gallery-wrapper {
+      flex-direction: column;
+      .big-img-box {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+      .small-img-box {
+        width: 100%;
+      }
+    }
+  }
+}

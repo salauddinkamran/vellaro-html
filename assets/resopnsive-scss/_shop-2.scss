@@ -1,0 +1,216 @@
+// media query breakpoints 1100px 
+@media (max-width: 1180px) {
+  #shop-3-hero-bg {
+    .main {
+      display: none;
+    }
+  }
+}
+
+
+
+
+// media query breakpoints 1100px 
+@media (max-width: 1100px) {
+  #all-product-detail {
+    .all-product-detail-wrapper {
+      flex-direction: column;
+      .all-product-detail-content-box {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        .custom-box {
+          width: 24%;
+        }
+        .brands-box {
+          width: 24%;
+          border: none;
+        }
+        .color-box {
+          width: 24%;
+          border: none;
+        }
+        .category-box {
+          width: 24%;
+          border: none;
+        }
+        .popular-tag-box {
+          width: 24%;
+          border: none;
+        }
+        .price-box {
+          width: 24%;
+        }
+      }
+      .all-product-detail-product-row {
+        width: 100%;
+        .all-product-detail-product-wrapp {
+          .all-product-detail-product-item-box {
+            width: 32%;
+            .all-product-detail-product-img-box {
+              img {
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .dis-none {
+    display: none !important;
+  }
+}
+
+
+
+// media query breakpoints 991px 
+@media (max-width: 991px) {
+  #all-product-detail {
+    .all-product-detail-wrapper {
+      .all-product-detail-content-box {
+        .custom-box {
+          width: 32%;
+        }
+        .brands-box {
+          width: 32%;
+        }
+        .color-box {
+          width: 32%;
+        }
+        .category-box {
+          width: 32%;
+        }
+        .popular-tag-box {
+          width: 32%;
+        }
+        .price-box {
+          width: 32%;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+// media query breakpoints 850px 
+@media (max-width: 850px) {
+  #all-product-detail {
+    .all-product-detail-wrapper {
+      .all-product-detail-product-row {
+        .all-product-detail-product-wrapp {
+          flex-wrap: wrap;
+          .all-product-detail-product-item-box {
+            width: 45%;
+            &:nth-child(3) {
+              margin-top: 50px;
+            }
+            .all-product-detail-product-img-box {
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+// media query breakpoints 768px 
+@media (max-width: 768px) {
+
+  #all-product-detail {
+    .all-product-detail-wrapper {
+      .all-product-detail-content-box {
+        .custom-box {
+          width: 48%;
+        }
+        .brands-box {
+          width: 48%;
+        }
+        .color-box {
+          width: 48%;
+        }
+        .category-box {
+          width: 48%;
+        }
+        .popular-tag-box {
+          width: 48%;
+        }
+        .price-box {
+          width: 48%;
+        }
+      }
+    }
+  }
+
+  #shop-2-explore {
+    .shop-2-explore-wrapper {
+      flex-direction: column;
+      .shop-2-explore-item-box {
+        width: 100%;
+        &:first-child {
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+}
+
+
+
+// media query breakpoints 660px 
+@media (max-width: 660px) {
+  #all-product-detail {
+    .all-product-detail-wrapper {
+      .all-product-detail-product-row {
+        .all-product-detail-product-wrapp {
+          .all-product-detail-product-item-box {
+            width: 100%;
+            &:nth-child(2) {
+              margin-top: 50px;
+            }
+            .all-product-detail-product-img-box {
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+// media query breakpoints 500px 
+@media (max-width: 500px) {
+  #all-product-detail {
+    form {
+      width: 100%;
+    }
+    .all-product-detail-wrapper {
+      .all-product-detail-content-box {
+        .custom-box {
+          width: 100%;
+        }
+        .brands-box {
+          width: 100%;
+        }
+        .color-box {
+          width: 100%;
+        }
+        .category-box {
+          width: 100%;
+        }
+        .popular-tag-box {
+          width: 100%;
+        }
+        .price-box {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

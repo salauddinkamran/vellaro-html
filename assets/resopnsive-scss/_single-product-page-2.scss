@@ -1,0 +1,32 @@
+
+// media query breakpoints 768px 
+// media query breakpoints 768px 
+@media (max-width: 768px) {
+  #description-section {
+    margin-bottom: 80px;
+    .relit-description-box {
+      flex-direction: column;
+      .relat-content-box {
+        width: 100%;
+      }
+    }
+  }
+}
+
+
+
+
+// media query breakpoints 500px 
+// media query breakpoints 500px 
+@media (max-width: 500px) {
+  #description-section {
+    .relit-description-box {
+      .relat-imb-box {
+        width: 100%;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

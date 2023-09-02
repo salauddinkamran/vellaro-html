@@ -1,0 +1,35 @@
+
+// media query breakpoints 1024px 
+@media (max-width: 1024px) {
+  #description-section {
+    .the-quick-wrapper {
+      flex-wrap: wrap;
+      .content-one-box,
+      .content-two-box,
+      .content-three-box {
+        width: 48%;
+      } 
+      .content-one-box {
+        margin-bottom: 50px;
+      }
+    }
+  }
+}
+
+
+// media query breakpoints 660px 
+@media (max-width: 660px) {
+  #description-section {
+    .the-quick-wrapper {
+      flex-wrap: wrap;
+      .content-one-box,
+      .content-two-box,
+      .content-three-box {
+        width: 100%;
+      } 
+      .content-two-box {
+        margin-bottom: 50px;
+      }
+    }
+  }
+}

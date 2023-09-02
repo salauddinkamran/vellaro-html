@@ -1,0 +1,17 @@
+
+
+
+
+// media query breakpoints 1180px
+@media (max-width: 1180px) {
+  #work-with-us {
+    .work-with-us-wrapper {
+      .work-with-us-content-box {
+        margin-bottom: 80px;
+      }
+      .map-box {
+        margin-left: 0 !important;
+      }
+    }
+  }
+}

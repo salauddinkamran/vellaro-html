@@ -1,0 +1,165 @@
+
+
+
+// media query breakpoints 1180px
+@media (max-width: 1180px) {
+
+  #hero-section {
+    margin-bottom: 420px;
+  }
+
+  #act {
+    .act-wrapper {
+      img {
+        height: 600px;
+      }
+    }
+  }
+
+
+  #work-with-us {
+    .work-with-us-wrapper {
+      flex-direction: column;
+      .map-box {
+        iframe {
+          width: 100%;
+        }
+        margin-bottom: 50px;
+      }
+      .Y-border-box {
+        display: none;
+      }
+      .work-with-us-content-box {
+        width: 100%;
+      }
+    }
+  }
+}
+
+
+
+// media query breakpoints 991px 
+@media  (max-width: 991px) {
+  #hero-section {
+    margin-bottom: 350px;
+  }
+  #act {
+    .act-wrapper {
+      img {
+        height: 500px;
+      }
+      .act-content {
+        padding-left: 60px;
+      }
+    }
+  }
+}
+
+
+
+// media query breakpoints 768px 
+@media  (max-width: 768px) {
+
+  #hero-section {
+    margin-bottom: 250px;
+  }
+
+  #our-numbers {
+    .our-numbers-wrappper {
+      flex-direction: column;
+      .our-numbers-item {
+        margin-bottom: 30px;
+      }
+    } 
+  } 
+
+  #act {
+    .act-wrapper {
+      img {
+        height: 400px;
+      }
+      .act-content {
+        padding-left: 30px;
+      }
+    }
+  }
+}
+
+
+
+// media query breakpoints 660px 
+@media  (max-width: 660px) {
+
+  #hero-section {
+    margin-bottom: 200px;
+    .hero-content {
+      h1 {
+        font-size: 55px;
+      }
+    } 
+  }
+
+  #act {
+    .act-wrapper {
+      flex-direction: column-reverse;
+      &:last-child {
+        flex-direction: column;
+      }
+      img {
+        // height: 400px;
+        width: 80%;
+        margin-bottom: 50px;
+      }
+      .act-content {
+        width: 80%;
+        margin-bottom: 50px;
+        // padding-left: 30px;
+      }
+    }
+  }
+}
+
+
+
+// media query breakpoints 500px
+@media (max-width: 500px) {
+
+
+  #hero-section {
+    margin-bottom: 100px;
+    .hero-content {
+      h1 {
+        font-size: 55px;
+      }
+    } 
+  }
+
+  #act {
+    .act-wrapper {
+      img {
+        width: 90%;
+      }
+      .act-content {
+        width: 90%;
+      }
+    }
+  }
+
+
+  #work-with-us {
+    .work-with-us-wrapper {
+      .work-with-us-content-box {
+        .contact-box {
+          .contact-wrapper-items {
+            flex-direction: column;
+            .content-wrapp-item { 
+              &:first-child {
+                margin-bottom: 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

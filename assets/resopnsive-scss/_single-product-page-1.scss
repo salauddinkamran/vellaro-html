@@ -1,0 +1,158 @@
+
+
+// media query breakpoints 1180px
+@media (max-width: 1180px) {
+  #stock-product {
+    .srock-product-wrapper {
+      .srock-product-img-box {
+        width: 40%;
+      }
+      .srock-product-content-box {
+        width: 40%;
+      }
+    }
+  }
+
+
+  #description-section {
+    .lezy-dog-seciton {
+      flex-wrap: wrap;
+      .img-box,
+      .description-box,
+      .question-box {
+        width: 48%;
+      }
+      .img-box {
+        margin-bottom: 80px;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+
+
+// media query breakpoints 1100px
+@media (max-width: 1100px) {
+  #bestselling-product {
+    .bestselling-product-wrapper {
+      flex-wrap: wrap;
+      .bestselling-product-item {
+        width: 32%;
+        &:nth-child(1) {
+          margin-bottom: 30px;
+        }
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+
+
+// media query breakpoints 991px
+@media (max-width: 991px) {
+  #stock-product {
+    .srock-product-wrapper {
+      flex-direction: column;
+      .srock-product-img-box {
+        margin-bottom: 80px;
+      }
+      .srock-product-content-box {
+        width: 100%;
+        .border {
+          width: 60%;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+// media query breakpoints 768px
+@media (max-width: 768px) {
+  #description-section {
+    .description-top-row {
+      width: 100%;
+    }
+    .lezy-dog-seciton {
+      flex-wrap: wrap;
+      .img-box,
+      .description-box,
+      .question-box {
+        width: 100%;
+      }
+      .question-box {
+        margin-top: 80px;
+        margin-left: 0;
+      }
+    }
+  }
+
+
+  #bestselling-product {
+    .bestselling-product-wrapper {
+      flex-wrap: wrap;
+      .bestselling-product-item {
+        width: 48%;
+        &:nth-child(2) {
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+
+}
+
+
+
+// media query breakpoints 660px
+@media (max-width: 660px) {
+  #stock-product {
+    .srock-product-wrapper {
+      .srock-product-img-box {
+        width: 100%;
+        img {
+          width: 100%;
+        }
+        .srock-porduct-small-img-box {
+          img {
+            width: 20%;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+// media query breakpoints 500px
+@media (max-width: 500px) {
+  #stock-product {
+    .srock-product-wrapper {
+      .srock-product-content-box {
+        h2 {
+          font-size: 35px;
+        }
+      }
+    }
+  }
+  #bestselling-product {
+    .bestselling-product-wrapper {
+      flex-wrap: wrap;
+      .bestselling-product-item {
+        width: 100%;
+        &:nth-child(3) {
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+}

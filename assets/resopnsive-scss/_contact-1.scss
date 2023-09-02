@@ -1,0 +1,54 @@
+
+
+
+
+// media query breakpoints 991px
+@media (max-width: 991px) {
+  #visit-our-office {
+    .office-wrapper {
+      flex-wrap: wrap;
+      justify-content: center;
+      .office-item {
+        width: 48%;
+      }
+    }
+  }
+}
+
+
+
+
+// media query breakpoints 660px
+@media (max-width: 660px) {
+  #visit-our-office {
+    .office-wrapper {
+      .office-item {
+        width: 100%;
+        padding: 40px;
+      }
+    }
+  }
+
+  #lets-talk {
+    .lets-title-wrapper {
+      h1 {
+        font-size: 55px;
+      }
+    }
+  }  
+}
+
+
+
+
+
+// media query breakpoints 500px
+@media (max-width: 500px) {
+  #visit-our-office {
+    .office-title {
+      h2 {
+        font-size: 35px;
+      }
+    }
+  }
+}

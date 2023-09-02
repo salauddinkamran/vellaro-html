@@ -1,0 +1,45 @@
+
+
+
+// media query breakpoints 991px
+@media (max-width: 991px) {
+  #gallery {
+    .gallery-wrapper {
+      flex-direction: column;
+      .large-img {
+        width: 100%;
+      }
+      .small-img-wrapper-box {
+        width: 100%;
+        margin-top: 30px;
+      }
+    }
+  }
+
+  #testimonial {
+    .testimonial-wrapper {
+      flex-direction: column;
+      .testimonial-item-box {
+        width: 100%;
+        margin-left: 50px;
+        &:first-child {
+          margin-bottom: 50px;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+// media query breakpoints 500px
+@media (max-width: 500px) {
+  #our-teem {
+    .our-teem-title {
+      h2 {
+        font-size: 35px;
+      }
+    }
+  }
+}

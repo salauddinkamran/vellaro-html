@@ -26,8 +26,15 @@
   .sharing-wrapper {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     .sharing-item-box {
       display: flex;
+      width: 33%;
+      &:nth-child(4),
+      &:nth-child(5),
+      &:nth-child(6) {
+        margin-top: 30px;
+      }
       .sharing-img-box {
         width: 60px;
         height: 60px;

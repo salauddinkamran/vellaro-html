@@ -1,0 +1,62 @@
+
+
+
+
+// media query breakpoints 1024px
+@media (max-width: 1024px) {
+  #testimonial {
+    .testimonial-wrapper-row {
+      width: 100%;
+      .testimonial-wrapp-col {
+        .img-box {
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+// media query breakpoints 991px 
+@media (max-width: 991px) {
+  #team-2-subscribe {
+    padding: 80px 0;
+    .team-2-wrapper-content {
+      flex-direction: column;
+      div {
+        margin-bottom: 30px;
+        h2 {
+          text-align: center;
+        }
+        p {
+          text-align: center;
+        }
+      }
+      .btn {
+        margin: auto;
+      }
+    }
+  }
+}
+
+
+
+
+
+// media query breakpoints 991px 
+@media (max-width: 991px) {
+  #team-2-subscribe {
+    .team-2-wrapper-content {
+      div {
+        h2 {
+          font-size: 35px;
+        }
+      }
+    }
+  }
+}
