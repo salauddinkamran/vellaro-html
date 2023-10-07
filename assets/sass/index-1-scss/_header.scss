@@ -1,77 +1,3 @@
-// #header {
-//   padding: 35px 0;
-//   .header-wrapper {
-//     display: flex;
-//     justify-content: space-between;
-//     .logo h3 {
-//       @include montserrat-font();
-//       font-style: normal;
-//       font-weight: 700;
-//       font-size: 24px;
-//       line-height: 32px;
-//       color: #252B42;
-//     }
-//     .navbar {
-//       .menu {
-//         li {
-//           display: inline-block;
-//           padding: 0 22px;
-//           a {
-//             @include encode-font();
-//             font-style: normal;
-//             font-weight: 600;
-//             font-size: 17px;
-//             line-height: 20px;
-//             text-align: center;
-//             color: #737373;
-//             transition: .3s ease;
-//             &:hover {
-//               color: #252B42;
-//             }
-//             i {
-//               color: #737373;
-//               padding-left: 5px;
-//             }
-//             &:hover i {
-//               color: #252B42;
-//             }
-
-//           } 
-//         }
-//       }
-//     }
-//     .login-register {
-//       a {
-//         @include montserrat-font();
-//         font-style: normal;
-//         font-weight: 700;
-//         font-size: 14px;
-//         line-height: 24px;
-//         text-align: center;
-//         color: #FCA311;
-//       }
-//       i {
-//         padding: 0 0 0 25px;
-//         color: #FCA311;
-//         cursor: pointer;
-//       }
-//       .fa-bars-staggered {
-//         display: none;
-//         font-size: 25px;
-//       }
-//     }
-//   }
-// }
-
-
-
-
-
-
-
-
-
-
 
 
 #header-section {
@@ -108,6 +34,34 @@
             color: #252B42;
           }
         }
+        ul {
+          opacity: 0;
+          display: none;
+          position: absolute;
+          background: #fff;
+          padding-top: 10px;
+          // padding: 20px;
+          z-index: 99999;
+          transition: all .4s ease;
+          li {
+            padding-bottom: 15px;
+            display: block;
+            background: #fafafa;
+            padding: 10px 20px;
+            margin-bottom: 5px;
+            cursor: pointer;
+            &:last-child {
+              margin-bottom: 0px;
+            }
+            &:hover a {
+              color: #111;
+            }
+          }
+        }
+        &:hover ul {
+          opacity: 1;
+          display: block;
+        }
       }
     }
     .register-login-box {
@@ -129,10 +83,17 @@
       }
     }
     .header-icon-box {
-      i {
-        color: #FCA311;
-        font-size: 18px;
-        margin-left: 20px;
+      ul {
+        li {
+          display: inline-block;
+          a {
+            i {
+              color: #FCA311;
+              font-size: 18px;
+              margin-left: 20px;
+            }
+          }
+        }
       }
       .fa-bars-staggered {
         display: none;
@@ -150,6 +111,13 @@
       border-top-left-radius: 5px;
       border-bottom-left-radius: 5px;
       margin-left: 45px;
+      border: 2px solid #FCA311;
+      cursor: pointer;
+      transition: all .3s ease;
+      &:hover {
+        background: transparent;
+        color: #FCA311;
+      }
       i {
         margin-left: 10px;
       }

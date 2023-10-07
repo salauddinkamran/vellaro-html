@@ -56,10 +56,17 @@
         display: flex;
         justify-content: center;
         margin-top: 10px;
-        i {
-          color: #FCA311;
-          font-size: 20px;
-          margin-right: 15px;
+        ul {
+          li {
+            display: inline-block;
+            a {
+              i {
+                color: #FCA311;
+                font-size: 20px;
+                margin-right: 15px;
+              }
+            }
+          }
         }
       }
     }

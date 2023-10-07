@@ -12,6 +12,13 @@
             a {
               color: #fff;
             }
+            ul {
+              li {
+                a {
+                  color: #000;
+                }
+              }
+            }
           }
         }
         .register-login-box {
@@ -36,3 +43,47 @@
 }
 
 
+
+
+// media query breakpoints 991px 
+@media (max-width: 991px) {
+  #shop-bg {
+    #header-section {
+      .header-wrapper {
+        .logo {
+          color: #fff;
+        }
+        .navbar {
+          li {
+            a {
+              color: #fff;
+            }
+            ul {
+              li {
+                a {
+                  color: #000;
+                }
+              }
+            }
+          }
+        }
+        .register-login-box {
+          a {
+            color: #fff;
+            i {
+              color: #fff;
+            }
+          }
+          span {
+            color: #fff;
+          }
+        }
+        .header-icon-box {
+          i {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}

@@ -23,22 +23,44 @@
           <a href="#" class="logo">Vellaro</a>
           <ul class="navbar">
             <li><a href="index-1.html">Home</a></li>
-            <li><a href="shop-1.html">Shop <i class="fa-solid fa-chevron-down"></i></a></li>
-            <li><a href="about-1.html">About</a></li>
-            <li><a href="blog-1.html">Blog</a></li>
-            <li><a href="contact-1.html">Contact</a></li>
-            <li><a href="single-product-page-8.html">Page</a></li>
+            <li><a href="single-product-page-8.html">Product<i class="fa-solid fa-chevron-down"></i></a>
+              <ul>
+                <li><a href="./single-product-page-1.html">Product 1</a></li>
+                <li><a href="./single-product-page-2.html">Product 2</a></li>
+                <li><a href="./single-product-page-3.html">Product 3</a></li>
+                <li><a href="./single-product-page-4.html">Product 4</a></li>
+                <li><a href="./single-product-page-5.html">Product 5</a></li>
+                <li><a href="./single-product-page-6.html">Product 6</a></li>
+                <li><a href="./single-product-page-7.html">Product 7</a></li>
+              </ul>
+            </li>
+            <li><a href="./pricing-1.html">Pricing<i class="fa-solid fa-chevron-down"></i></a>
+              <ul>
+                <li><a href="./pricing-2.html">Pricing 2</a></li>
+                <li><a href="./pricing-3.html">Pricing 3</a></li>
+              </ul>
+            </li>
+            <li><a href="contact-1.html">Contact<i class="fa-solid fa-chevron-down"></i></a>
+              <ul>
+                <li><a href="./contact-2.html">Contact 2</a></li>
+                <li><a href="./content-3.html">Contact 3</a></li>
+                <li><a href="./contact-4.html">Contact 4</a></li>
+                <li><a href="./contact-5.html">Contact 5</a></li>
+              </ul>
+            </li>
           </ul>
           <div class="register-login-box login-dis-none">
-            <a href="#"><i class="fa-regular fa-user"></i> Login</a>
+            <a href="./login.html"><i class="fa-regular fa-user"></i> Login</a>
             <!-- <span>/</span> -->
             <!-- <a href="#">Register</a> -->
           </div>
           <div class="header-icon-box">
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <i class="fa-solid fa-cart-shopping"></i>
-            <i class="fa-regular fa-heart"></i>
-            <i class="fa-solid fa-bars-staggered"></i>
+            <ul>
+              <li><a href="#"><i class="fa-solid fa-magnifying-glass header-i-dis-none"></i></a></li>
+              <li><a href="#"><i class="fa-solid fa-cart-shopping header-i-dis-none"></i></a></li>
+              <li><a href="#"><i class="fa-regular fa-heart header-i-dis-none"></i></a></li>
+              <li><a href="#"><i class="fa-solid fa-bars-staggered header-i-dis-none"></i></a></li>
+            </ul>
           </div>
 
           <button class="header-btn">Become a member <i class="fa-solid fa-arrow-right"></i></button>
@@ -53,8 +75,17 @@
       </div>
       <div class="video-section">
         <img src="./assets/img/about-img/about-6-video-card-img.png" alt="">
+        <div class="video-icon-box play-btn" onclick="playVideo('./assets/img/about-img/Bicycle Ride .mp4')">
+          <i class="fa-solid fa-play"></i>
+        </div>
       </div>
     </div>
+  </div>
+  <div class="video-player" id="videoPlayer">
+    <video controls width="100%" id="myVideo">
+      <source src="./assets/img/about-img/Bicycle Ride .mp4">
+    </video>
+    <i class="fa-regular fa-circle-xmark close-btn" onclick="stopvideo()" id="thisId"></i>
   </div>
   <!-- hero section end -->
 
@@ -255,8 +286,6 @@
     </div>
   </section>
   <!-- footer social media section end -->
-
-
 
 
   <!-- javascript file link -->

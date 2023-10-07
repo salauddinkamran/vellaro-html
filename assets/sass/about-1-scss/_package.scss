@@ -64,7 +64,27 @@
 
 #video {
   margin: 120px 0;
+  position: relative;
   img {
     width: 100%;
+    border-radius: 20px;
+  }
+  .video-icon-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #fca311;
+    cursor: pointer;
+    i {
+      color: #fff;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
   }
 }

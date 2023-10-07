@@ -26,8 +26,48 @@
     }
   }
   .video-section {
+    position: relative;
+    .video-icon-box {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      background: #FCA311;
+      cursor: pointer;
+      i {
+        color: #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
     img {
       width: 100%;
     }
+  }
+}
+
+
+.video-player {
+  width: 60%;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  video {
+    height: 573px;
+  }
+  .close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 25px;
+    cursor: pointer;
+    color: #fff;
   }
 }

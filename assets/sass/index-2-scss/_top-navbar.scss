@@ -16,23 +16,35 @@
     .contact-box span:first-child {
       margin-right: 20px;
     }
-    .contact-box span {
-      @include top-navbar-font();
-      i {
-        margin-right: 5px;
+    .contact-box {
+      a {
+        @include top-navbar-font();
+        margin-right: 15px;
+        i {
+          margin-right: 5px;
+        }
       }
     }
-    p {
+    .top-nav-dec {
       @include top-navbar-font();
     }
     .social-media {
+      display: flex;
+      align-items: center;
       span {
         @include top-navbar-font();
       }
-      i {
-        padding: 0 5px;
-        color: #FFFFFF;
-      }
+      ul {
+        li {
+          display: inline-block;
+          a {
+            i {
+              padding: 0 5px;
+              color: #FFFFFF;
+            }
+          }
+        }
+      } 
     }
   }
 }

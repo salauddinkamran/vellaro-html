@@ -1,7 +1,15 @@
 #vector {
   padding: 100px 0;
-  .vector-wrapper {
-    display: flex;
-    justify-content: space-around;
+  .mySlide {
+    overflow: hidden;
+    .vector-wrapper {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      // flex-wrap: wrap;
+      .vector-img {
+        width: 16% !important;
+      }
+    }
   }
 }

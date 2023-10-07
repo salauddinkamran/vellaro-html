@@ -93,6 +93,12 @@
           font-size: 14px;
           line-height: 20px;
           color: #737373;
+          width: 200px;
+          display: -webkit-box;
+          -webkit-line-clamp: 3;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+          text-overflow: ellipsis;
         }
         .date-box {
           margin: 25px 0;

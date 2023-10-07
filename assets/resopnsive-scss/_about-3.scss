@@ -2,16 +2,8 @@
 
 // media query breakpoints 991px
 @media (min-width: 991px) {
-  #header-section {
-    .header-wrapper {
-      .header-icon-box {
-        .fa-magnifying-glass,
-        .fa-cart-shopping,
-        .fa-heart {
-          display: none;
-        }
-      }
-    }
+  .header-i-dis-none {
+    display: none;
   }
 }
 
